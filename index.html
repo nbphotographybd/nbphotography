@@ -1,0 +1,972 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="NB ফটোগ্রাফি - চট্টগ্রামের সেরা প্রফেশনাল ফটোগ্রাফি সার্ভিস">
+    <title>NB ফটোগ্রাফি - প্রিমিয়াম ফটোশুট সার্ভিস | চট্টগ্রাম</title>
+    
+    <!-- ফন্ট এবং আইকন লিঙ্ক -->
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <body>
+    <!-- প্রধান কন্টেইনার -->
+    <div class="nb-container">
+        <header class="nb-header">
+            <h1>NB ফটোগ্রাফি</h1>
+            <div class="nb-tagline">প্রিমিয়াম কোয়ালিটি | বাজেট ফ্রেন্ডলি | চট্টগ্রাম ভিত্তিক</div>
+            <p>আপনার বিশেষ মুহূর্তগুলোকে চিরস্মরণীয় করে তুলুন</p>
+            <div style="display: flex; gap: 15px; justify-content: center; margin-top: 30px; flex-wrap: wrap;">
+                <a href="#nb-packages" class="nb-btn">আমাদের প্যাকেজসমূহ</a>
+                <a href="#nb-contact" class="nb-btn" style="background: #FD79A8;">যোগাযোগ করুন</a>
+            </div>
+        </header>
+
+        <div class="nb-card">
+            <h2 style="color: #6C5CE7; margin-bottom: 15px;">এনবি ফটোগ্রাফিতে স্বাগতম</h2>
+            <p>আপনি কি চট্টগ্রামে একটি প্রফেশনাল, বাজেট ফ্রেন্ডলি আউটডোর ফটোশুট খুঁজছেন? এনবি ফটোগ্রাফি নিয়ে এসেছে বিভিন্ন ক্যাটাগরির আউটডোর ফটোশুট প্যাকেজ - যেগুলো সব বয়স ও স্টাইলের মানুষের জন্য একদম উপযুক্ত!</p>
+        </div>
+        
+        <div class="nb-card">
+            <div style="display: flex; flex-wrap: wrap; gap: 15px; justify-content: center;">
+                <div class="nb-stat-item">
+                    <div class="nb-stat-number" id="nb-clientCounter">০</div>
+                    <div class="nb-stat-label">সন্তুষ্ট ক্লায়েন্ট</div>
+                </div>
+                <div class="nb-stat-item">
+                    <div class="nb-stat-number" id="nb-packageCounter">০</div> 
+                    <div class="nb-stat-label">ফটো প্যাকেজ</div>
+                </div>
+                <div class="nb-stat-item">
+                    <div class="nb-stat-number" id="nb-satisfactionCounter">০%</div>
+                    <div class="nb-stat-label">সন্তুষ্টি গ্যারান্টি</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- বুকিং মডাল -->
+        <div class="nb-modal" id="nb-bookingModal">
+            <div class="nb-modal-content">
+                <span class="nb-close-modal">&times;</span>
+                <h2 id="nb-modalPackageTitle" style="color: #6C5CE7; margin-bottom: 15px;">প্যাকেজ নাম</h2>
+                <div id="nb-modalPackageDetails" style="text-align: left;"></div>
+                <div style="display: flex; gap: 10px; margin-top: 25px; justify-content: center; flex-wrap: wrap;">
+                    <a href="#" class="nb-btn" id="nb-whatsappBtn" style="background: #25D366;">
+                        <i class="fab fa-whatsapp"></i> WhatsApp
+                    </a>
+                    <a href="#" class="nb-btn" id="nb-facebookBtn" style="background: #4267B2;">
+                        <i class="fab fa-facebook-messenger"></i> Messenger
+                    </a>
+                    <a href="tel:01628233346" class="nb-btn" style="background: #2D3436;">
+                        <i class="fas fa-phone-alt"></i> কল করুন
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- প্যাকেজ সেকশন -->
+        <section id="nb-packages">
+            <h2 style="font-size: 2rem; color: #6C5CE7; margin: 40px 0 20px; text-align: center;">আমাদের ফটোশুট প্যাকেজসমূহ</h2>
+            
+            <div class="nb-packages-grid">
+                <!-- প্যাকেজ ১ -->
+                <div class="nb-card">
+                    <h3 style="color: #6C5CE7; margin-bottom: 15px;"><strong>একক ফটোশুট</strong></h3>
+                    <ul style="list-style: none; margin: 15px 0; padding: 0;">
+                        <li style="padding: 8px 0; border-bottom: 1px dashed #eee; display: flex; align-items: center;">
+                            <i class="fas fa-check" style="color: #6C5CE7; margin-right: 10px;"></i>
+                            ১ জন (পুরুষ/মহিলা)
+                        </li>
+                        <li style="padding: 8px 0; border-bottom: 1px dashed #eee; display: flex; align-items: center;">
+                            <i class="fas fa-check" style="color: #6C5CE7; margin-right: 10px;"></i>
+                            ১ ঘণ্টা ফটোশুট
+                        </li>
+                        <li style="padding: 8px 0; display: flex; align-items: center;">
+                            <i class="fas fa-check" style="color: #6C5CE7; margin-right: 10px;"></i>
+                            ১৫টি এডিটেড ছবি
+                        </li>
+                    </ul>
+                    <div style="font-size: 1.8rem; color: #6C5CE7; font-weight: 700; text-align: center; margin: 20px 0;">৳১২০০</div>
+                    <button class="nb-btn nb-book-btn" style="display: block; width: 100%;" data-package="একক ফটোশুট" data-price="৳১২০০" data-features="১ জন (পুরুষ/মহিলা), ১ ঘণ্টা ফটোশুট, ১৫টি এডিটেড ছবি">বুক করুন</button>
+                </div>
+                
+                <!-- প্যাকেজ ২ -->
+                <div class="nb-card">
+                    <h3 style="color: #6C5CE7; margin-bottom: 15px;"><strong>কাপল ফটোশুট</strong></h3>
+                    <ul style="list-style: none; margin: 15px 0; padding: 0;">
+                        <li style="padding: 8px 0; border-bottom: 1px dashed #eee; display: flex; align-items: center;">
+                            <i class="fas fa-check" style="color: #6C5CE7; margin-right: 10px;"></i>
+                            ২ জন (কাপল)
+                        </li>
+                        <li style="padding: 8px 0; border-bottom: 1px dashed #eee; display: flex; align-items: center;">
+                            <i class="fas fa-check" style="color: #6C5CE7; margin-right: 10px;"></i>
+                            ১.৫ ঘণ্টা ফটোশুট
+                        </li>
+                        <li style="padding: 8px 0; display: flex; align-items: center;">
+                            <i class="fas fa-check" style="color: #6C5CE7; margin-right: 10px;"></i>
+                            ২৫টি এডিটেড ছবি
+                        </li>
+                    </ul>
+                    <div style="font-size: 1.8rem; color: #6C5CE7; font-weight: 700; text-align: center; margin: 20px 0;">৳১৮০০</div>
+                    <button class="nb-btn nb-book-btn" style="display: block; width: 100%;" data-package="কাপল ফটোশুট" data-price="৳১৮০০" data-features="২ জন (কাপল), ১.৫ ঘণ্টা ফটোশুট, ২৫টি এডিটেড ছবি">বুক করুন</button>
+                </div>
+                
+                <!-- প্যাকেজ ৩ -->
+                <div class="nb-card">
+                    <h3 style="color: #6C5CE7; margin-bottom: 15px;"><strong>ফ্যামিলি ফটোশুট</strong></h3>
+                    <ul style="list-style: none; margin: 15px 0; padding: 0;">
+                        <li style="padding: 8px 0; border-bottom: 1px dashed #eee; display: flex; align-items: center;">
+                            <i class="fas fa-check" style="color: #6C5CE7; margin-right: 10px;"></i>
+                            ৩ জন (পরিবার)
+                        </li>
+                        <li style="padding: 8px 0; border-bottom: 1px dashed #eee; display: flex; align-items: center;">
+                            <i class="fas fa-check" style="color: #6C5CE7; margin-right: 10px;"></i>
+                            ১.৫ ঘণ্টা ফটোশুট
+                        </li>
+                        <li style="padding: 8px 0; display: flex; align-items: center;">
+                            <i class="fas fa-check" style="color: #6C5CE7; margin-right: 10px;"></i>
+                            ২৫টি এডিটেড ছবি
+                        </li>
+                    </ul>
+                    <div style="font-size: 1.8rem; color: #6C5CE7; font-weight: 700; text-align: center; margin: 20px 0;">৳২০০০</div>
+                    <button class="nb-btn nb-book-btn" style="display: block; width: 100%;" data-package="ফ্যামিলি ফটোশুট" data-price="৳২০০০" data-features="৩ জন (পরিবার), ১.৫ ঘণ্টা ফটোশুট, ২৫টি এডিটেড ছবি">বুক করুন</button>
+                </div>
+                
+                <!-- প্যাকেজ ৪ -->
+                <div class="nb-card">
+                    <h3 style="color: #6C5CE7; margin-bottom: 15px;"><strong>ম্যাটারনিটি ফটোশুট</strong></h3>
+                    <ul style="list-style: none; margin: 15px 0; padding: 0;">
+                        <li style="padding: 8px 0; border-bottom: 1px dashed #eee; display: flex; align-items: center;">
+                            <i class="fas fa-check" style="color: #6C5CE7; margin-right: 10px;"></i>
+                            ২ জন (স্বামী-স্ত্রী)
+                        </li>
+                        <li style="padding: 8px 0; border-bottom: 1px dashed #eee; display: flex; align-items: center;">
+                            <i class="fas fa-check" style="color: #6C5CE7; margin-right: 10px;"></i>
+                            ১.৫ ঘণ্টা ফটোশুট
+                        </li>
+                        <li style="padding: 8px 0; display: flex; align-items: center;">
+                            <i class="fas fa-check" style="color: #6C5CE7; margin-right: 10px;"></i>
+                            ৩০টি এডিটেড ছবি
+                        </li>
+                    </ul>
+                    <div style="font-size: 1.8rem; color: #6C5CE7; font-weight: 700; text-align: center; margin: 20px 0;">৳২২০০</div>
+                    <button class="nb-btn nb-book-btn" style="display: block; width: 100%;" data-package="ম্যাটারনিটি ফটোশুট" data-price="৳২২০০" data-features="২ জন (স্বামী-স্ত্রী), ১.৫ ঘণ্টা ফটোশুট, ৩০টি এডিটেড ছবি">বুক করুন</button>
+                </div>
+                
+                <!-- প্যাকেজ ৫ -->
+                <div class="nb-card">
+                    <h3 style="color: #6C5CE7; margin-bottom: 15px;"><strong>জন্মদিন ফটোশুট</strong></h3>
+                    <ul style="list-style: none; margin: 15px 0; padding: 0;">
+                        <li style="padding: 8px 0; border-bottom: 1px dashed #eee; display: flex; align-items: center;">
+                            <i class="fas fa-check" style="color: #6C5CE7; margin-right: 10px;"></i>
+                            যেকোনো বয়সের জন্য
+                        </li>
+                        <li style="padding: 8px 0; border-bottom: 1px dashed #eee; display: flex; align-items: center;">
+                            <i class="fas fa-check" style="color: #6C5CE7; margin-right: 10px;"></i>
+                            ১.৫ ঘণ্টা ফটোশুট
+                        </li>
+                        <li style="padding: 8px 0; display: flex; align-items: center;">
+                            <i class="fas fa-check" style="color: #6C5CE7; margin-right: 10px;"></i>
+                            ২৫টি এডিটেড ছবি + ভিডিও
+                        </li>
+                    </ul>
+                    <div style="font-size: 1.8rem; color: #6C5CE7; font-weight: 700; text-align: center; margin: 20px 0;">৳২০০০</div>
+                    <button class="nb-btn nb-book-btn" style="display: block; width: 100%;" data-package="জন্মদিন ফটোশুট" data-price="৳২০০০" data-features="যেকোনো বয়সের জন্য, ১.৫ ঘণ্টা ফটোশুট, ২৫টি এডিটেড ছবি + ভিডিও">বুক করুন</button>
+                </div>
+                
+                <!-- প্যাকেজ ৬ -->
+                <div class="nb-card">
+                    <h3 style="color: #6C5CE7; margin-bottom: 15px;"><strong>বার্ষিকী ফটোশুট</strong></h3>
+                    <ul style="list-style: none; margin: 15px 0; padding: 0;">
+                        <li style="padding: 8px 0; border-bottom: 1px dashed #eee; display: flex; align-items: center;">
+                            <i class="fas fa-check" style="color: #6C5CE7; margin-right: 10px;"></i>
+                            ২ জন (কাপল)
+                        </li>
+                        <li style="padding: 8px 0; border-bottom: 1px dashed #eee; display: flex; align-items: center;">
+                            <i class="fas fa-check" style="color: #6C5CE7; margin-right: 10px;"></i>
+                            ১ ঘণ্টা ফটোশুট
+                        </li>
+                        <li style="padding: 8px 0; display: flex; align-items: center;">
+                            <i class="fas fa-check" style="color: #6C5CE7; margin-right: 10px;"></i>
+                            ২০টি এডিটেড ছবি
+                        </li>
+                    </ul>
+                    <div style="font-size: 1.8rem; color: #6C5CE7; font-weight: 700; text-align: center; margin: 20px 0;">৳১৮০০</div>
+                    <button class="nb-btn nb-book-btn" style="display: block; width: 100%;" data-package="বার্ষিকী ফটোশুট" data-price="৳১৮০০" data-features="২ জন (কাপল), ১ ঘণ্টা ফটোশুট, ২০টি এডিটেড ছবি">বুক করুন</button>
+                </div>
+                
+                <!-- প্যাকেজ ৭ -->
+                <div class="nb-card">
+                    <h3 style="color: #6C5CE7; margin-bottom: 15px;"><strong>প্রি-ওয়েডিং ফটোশুট</strong></h3>
+                    <ul style="list-style: none; margin: 15px 0; padding: 0;">
+                        <li style="padding: 8px 0; border-bottom: 1px dashed #eee; display: flex; align-items: center;">
+                            <i class="fas fa-check" style="color: #6C5CE7; margin-right: 10px;"></i>
+                            ২ জন (কাপল)
+                        </li>
+                        <li style="padding: 8px 0; border-bottom: 1px dashed #eee; display: flex; align-items: center;">
+                            <i class="fas fa-check" style="color: #6C5CE7; margin-right: 10px;"></i>
+                            ১.৫ ঘণ্টা ফটোশুট
+                        </li>
+                        <li style="padding: 8px 0; display: flex; align-items: center;">
+                            <i class="fas fa-check" style="color: #6C5CE7; margin-right: 10px;"></i>
+                            ৩০টি এডিটেড ছবি
+                        </li>
+                    </ul>
+                    <div style="font-size: 1.8rem; color: #6C5CE7; font-weight: 700; text-align: center; margin: 20px 0;">৳২৫০০</div>
+                    <button class="nb-btn nb-book-btn" style="display: block; width: 100%;" data-package="প্রি-ওয়েডিং ফটোশুট" data-price="৳২৫০০" data-features="২ জন (কাপল), ১.৫ ঘণ্টা ফটোশুট, ৩০টি এডিটেড ছবি">বুক করুন</button>
+                </div>
+                
+                <!-- প্যাকেজ ৮ -->
+                <div class="nb-card">
+                    <h3 style="color: #6C5CE7; margin-bottom: 15px;"><strong>ব্রাইডাল সোলো</strong></h3>
+                    <ul style="list-style: none; margin: 15px 0; padding: 0;">
+                        <li style="padding: 8px 0; border-bottom: 1px dashed #eee; display: flex; align-items: center;">
+                            <i class="fas fa-check" style="color: #6C5CE7; margin-right: 10px;"></i>
+                            কনে একা
+                        </li>
+                        <li style="padding: 8px 0; border-bottom: 1px dashed #eee; display: flex; align-items: center;">
+                            <i class="fas fa-check" style="color: #6C5CE7; margin-right: 10px;"></i>
+                            ১.৫ ঘণ্টা ফটোশুট
+                        </li>
+                        <li style="padding: 8px 0; display: flex; align-items: center;">
+                            <i class="fas fa-check" style="color: #6C5CE7; margin-right: 10px;"></i>
+                            ৩০টি এডিটেড ছবি
+                        </li>
+                    </ul>
+                    <div style="font-size: 1.8rem; color: #6C5CE7; font-weight: 700; text-align: center; margin: 20px 0;">৳২৫০০</div>
+                    <button class="nb-btn nb-book-btn" style="display: block; width: 100%;" data-package="ব্রাইডাল সোলো" data-price="৳২৫০০" data-features="কনে একা, ১.৫ ঘণ্টা ফটোশুট, ৩০টি এডিটেড ছবি">বুক করুন</button>
+                </div>
+                
+                <!-- প্যাকেজ ৯ -->
+                <div class="nb-card">
+                    <h3 style="color: #6C5CE7; margin-bottom: 15px;"><strong>ব্রাইডাল কাপল</strong></h3>
+                    <ul style="list-style: none; margin: 15px 0; padding: 0;">
+                        <li style="padding: 8px 0; border-bottom: 1px dashed #eee; display: flex; align-items: center;">
+                            <i class="fas fa-check" style="color: #6C5CE7; margin-right: 10px;"></i>
+                            কনে ও বর
+                        </li>
+                        <li style="padding: 8px 0; border-bottom: 1px dashed #eee; display: flex; align-items: center;">
+                            <i class="fas fa-check" style="color: #6C5CE7; margin-right: 10px;"></i>
+                            ১.৫ ঘণ্টা ফটোশুট
+                        </li>
+                        <li style="padding: 8px 0; display: flex; align-items: center;">
+                            <i class="fas fa-check" style="color: #6C5CE7; margin-right: 10px;"></i>
+                            ৩০টি এডিটেড ছবি
+                        </li>
+                    </ul>
+                    <div style="font-size: 1.8rem; color: #6C5CE7; font-weight: 700; text-align: center; margin: 20px 0;">৳৩০০০</div>
+                    <button class="nb-btn nb-book-btn" style="display: block; width: 100%;" data-package="ব্রাইডাল কাপল" data-price="৳৩০০০" data-features="কনে ও বর, ১.৫ ঘণ্টা ফটোশুট, ৩০টি এডিটেড ছবি">বুক করুন</button>
+                </div>
+                
+                <!-- প্যাকেজ ১০ -->
+                <div class="nb-card">
+                    <h3 style="color: #6C5CE7; margin-bottom: 15px;"><strong>কর্পোরেট ফটোশুট</strong></h3>
+                    <ul style="list-style: none; margin: 15px 0; padding: 0;">
+                        <li style="padding: 8px 0; border-bottom: 1px dashed #eee; display: flex; align-items: center;">
+                            <i class="fas fa-check" style="color: #6C5CE7; margin-right: 10px;"></i>
+                            সর্বোচ্চ ১০ জন
+                        </li>
+                        <li style="padding: 8px 0; border-bottom: 1px dashed #eee; display: flex; align-items: center;">
+                            <i class="fas fa-check" style="color: #6C5CE7; margin-right: 10px;"></i>
+                            ২ ঘণ্টা ফটোশুট
+                        </li>
+                        <li style="padding: 8px 0; display: flex; align-items: center;">
+                            <i class="fas fa-check" style="color: #6C5CE7; margin-right: 10px;"></i>
+                            ৪০টি এডিটেড ছবি
+                        </li>
+                    </ul>
+                    <div style="font-size: 1.8rem; color: #6C5CE7; font-weight: 700; text-align: center; margin: 20px 0;">৳৪০০০</div>
+                    <button class="nb-btn nb-book-btn" style="display: block; width: 100%;" data-package="কর্পোরেট ফটোশুট" data-price="৳৪০০০" data-features="সর্বোচ্চ ১০ জন, ২ ঘণ্টা ফটোশুট, ৪০টি এডিটেড ছবি">বুক করুন</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- প্যাকেজের শর্তাবলী ও সীমাবদ্ধতা সেকশন -->
+        <div class="nb-card">
+            <h2 style="color: #6C5CE7; margin-bottom: 15px;"><strong>এই প্যাকেজগুলোর প্রযোজ্যতা ও সীমাবদ্ধতা</strong></h2>
+            <p>এই প্যাকেজগুলো শুধুমাত্র সাধারণ/নরমাল ফটোশুটের জন্য প্রযোজ্য। যেমন - আগে বিবাহিত দম্পতি, নরমাল বয়ফ্রেন্ড-গার্লফ্রেন্ড, পার্সোনাল পোর্ট্রেট শুট বা স্মৃতির ছবি তোলার উদ্দেশ্যে। ওয়েডিং ডে/ওয়েডিং কাপল/প্রফেশনাল ব্রাইডাল কভারেজের জন্য এই প্যাকেজ প্রযোজ্য নয়। ওয়েডিং কভারেজের আলাদা প্রফেশনাল প্যাকেজ পেইজে দেওয়া আছে।</p>
+        </div>
+
+        <!-- গ্যালারি সেকশন -->
+        <section id="nb-gallery"> 
+            <h2 style="font-size: 1.8rem; color: #6C5CE7; margin: 40px 0 20px; text-align: center;">আমাদের কাজের গ্যালারি</h2>
+            <div class="nb-gallery-container">
+                <button class="nb-slider-arrow left" id="nb-prevSlide"><i class="fas fa-chevron-left"></i></button>
+                <div class="nb-gallery-slider" id="nb-gallerySlider">
+                    <div class="nb-gallery-slide">
+                        <img src="https://scontent.fcgp27-1.fna.fbcdn.net/v/t39.30808-6/481456001_678156158117616_5536203485061128767_n.jpg" alt="একক ফটোশুট - NB ফটোগ্রাফি">
+                    </div>
+                    <div class="nb-gallery-slide">
+                        <img src="https://scontent.fcgp27-1.fna.fbcdn.net/v/t39.30808-6/485182418_691184293481469_7020341877453062328_n.jpg" alt="কাপল ফটোশুট - NB ফটোগ্রাফি">
+                    </div>
+                    <div class="nb-gallery-slide">
+                        <img src="https://scontent.fcgp27-1.fna.fbcdn.net/v/t39.30808-6/484827906_689567340309831_1271935624855284730_n.jpg" alt="ফ্যামিলি ফটোশুট - NB ফটোগ্রাফি">
+                    </div>
+                    <div class="nb-gallery-slide">
+                        <img src="https://scontent.fcgp27-1.fna.fbcdn.net/v/t39.30808-6/481164726_678162581450307_830993249905955004_n.jpg" alt="ম্যাটারনিটি ফটোশুট - NB ফটোগ্রাফি">
+                    </div>
+                    <div class="nb-gallery-slide">
+                        <img src="https://scontent.fcgp27-1.fna.fbcdn.net/v/t39.30808-6/474665559_650639684202597_1342358569698508838_n.jpg" alt="জন্মদিন ফটোশুট - NB ফটোগ্রাফি">
+                    </div>
+                    <div class="nb-gallery-slide">
+                        <img src="https://scontent.fcgp27-1.fna.fbcdn.net/v/t39.30808-6/480628187_672366138696618_4225720124125070093_n.jpg" alt="ব্রাইডাল ফটোশুট - NB ফটোগ্রাফি">
+                    </div>
+                </div>
+                <button class="nb-slider-arrow right" id="nb-nextSlide"><i class="fas fa-chevron-right"></i></button>
+                <div class="nb-slider-nav" id="nb-sliderNav"></div>
+            </div>
+        </section>
+
+        <!-- ইউটিউব ভিডিও সেকশন -->
+        <section id="nb-videos" class="nb-card">
+            <h2 style="font-size: 1.8rem; color: #6C5CE7; margin-bottom: 20px; text-align: center;">আমাদের কাজের ভিডিওসমূহ</h2>
+            <p style="text-align: center; margin-bottom: 20px;">আমাদের ফটোগ্রাফি স্টাইল এবং কাজের মান দেখুন এই ভিডিওগুলোতে</p>
+            
+            <div class="nb-video-container">
+                <!-- ভিডিও ১ - আপনি এখানে আপনার ইউটিউব ভিডিও লিংক যোগ করবেন -->
+                <div class="nb-video-item">
+                    <iframe src="https://www.youtube.com/embed/YOUR_VIDEO_ID_1" allowfullscreen></iframe>
+                </div>
+                
+                <!-- ভিডিও ২ -->
+                <div class="nb-video-item">
+                    <iframe src="https://www.youtube.com/embed/YOUR_VIDEO_ID_2" allowfullscreen></iframe>
+                </div>
+                
+                <!-- ভিডিও ৩ -->
+                <div class="nb-video-item">
+                    <iframe src="https://www.youtube.com/embed/YOUR_VIDEO_ID_3" allowfullscreen></iframe>
+                </div>
+            </div>
+            
+            <div style="text-align: center; margin-top: 20px;">
+                <a href="https://www.youtube.com/channel/YOUR_CHANNEL_ID" class="nb-btn" target="_blank" style="display: inline-flex; align-items: center;">
+                    <i class="fab fa-youtube" style="margin-right: 8px;"></i> আরও ভিডিও দেখুন
+                </a>
+            </div>
+        </section>
+
+        <!-- FAQ সেকশন -->
+        <section id="nb-faq">
+            <h2 style="font-size: 1.8rem; color: #6C5CE7; margin: 40px 0 20px; text-align: center;">সচরাচর জিজ্ঞাসিত প্রশ্ন</h2>
+            
+            <div class="nb-faq-item">
+                <div class="nb-faq-question">
+                    <span>ফটোশুটের জন্য কতদিন আগে বুকিং করতে হবে?</span>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="nb-faq-answer">
+                    <p>আমরা সাধারণত কমপক্ষে ৩ দিন আগে বুকিং নিয়ে থাকি। তবে উইকেন্ড বা ছুটির দিনে ফটোশুটের জন্য অন্তত ১ সপ্তাহ আগে বুকিং করার পরামর্শ দিই।</p>
+                </div>
+            </div>
+            
+            <div class="nb-faq-item">
+                <div class="nb-faq-question">
+                    <span>ফটোশুটের জন্য লোকেশন কে ঠিক করবে?</span>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="nb-faq-answer">
+                    <p>আপনি চাইলে নিজে লোকেশন সিলেক্ট করতে পারেন অথবা আমাদের পরামর্শ নিতে পারেন। চট্টগ্রামের বিভিন্ন সুন্দর আউটডোর লোকেশন সম্পর্কে আমরা আপনাকে গাইড করতে পারব।</p>
+                </div>
+            </div>
+            
+            <div class="nb-faq-item">
+                <div class="nb-faq-question">
+                    <span>ফটো এডিটিং কতদিন সময় লাগে?</span>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="nb-faq-answer">
+                    <p>সাধারণত ফটোশুটের পর ৭-১০ কর্মদিবসের মধ্যে আমরা এডিট করা ছবি ডেলিভারি দিয়ে থাকি। জরুরি প্রয়োজন হলে এক্সপ্রেস সার্ভিসও রয়েছে (অতিরিক্ত চার্জ প্রযোজ্য)।</p>
+                </div>
+            </div>
+            
+            <div class="nb-faq-item">
+                <div class="nb-faq-question">
+                    <span>বৃষ্টি বা খারাপ আবহাওয়া হলে কি হবে?</span>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="nb-faq-answer">
+                    <p>খারাপ আবহাওয়ার কারণে ফটোশুট পুনরায় শিডিউল করা যাবে। আমরা আবহাওয়া পরিস্থিতি পর্যবেক্ষণ করে আপনাকে আগেই জানিয়ে দেব।</p>
+                </div>
+            </div>
+            
+            <div class="nb-faq-item">
+                <div class="nb-faq-question">
+                    <span>কিভাবে পেমেন্ট করতে হবে?</span>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="nb-faq-answer">
+                    <p>আপনি চাইলে বিকাশ/নগদ/রকেটের মাধ্যমে অগ্রিম পেমেন্ট করতে পারেন অথবা ফটোশুটের দিন ক্যাশ পেমেন্টও গ্রহণ করা হয়। অগ্রিম পেমেন্টের ক্ষেত্রে ৫০% অগ্রিম প্রয়োজন।</p>
+                </div>
+            </div>
+            
+            <div class="nb-faq-item">
+                <div class="nb-faq-question">
+                    <span>ছবি ডেলিভারির ফরম্যাট কি হবে?</span>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="nb-faq-answer">
+                    <p>সকল ছবি উচ্চ রেজোলিউশনের JPEG ফরম্যাটে দেওয়া হবে যা আপনি প্রিন্ট অথবা সোশ্যাল মিডিয়ায় শেয়ার করতে পারবেন।</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- সত্যাবলী ও বুকিং শর্তাবলী -->
+        <section id="nb-terms" class="nb-card">
+            <h2 style="color: #6C5CE7; margin-bottom: 20px; text-align: center;">সত্যাবলী ও বুকিং শর্তাবলী</h2>
+            
+            <div style="margin-bottom: 25px;">
+                <h3 style="color: #6C5CE7; font-size: 1.2rem; margin-bottom: 10px; display: flex; align-items: center;">
+                    <i class="fas fa-file-contract" style="margin-right: 10px;"></i>সাধারণ শর্তাবলী
+                </h3>
+                <ul style="list-style-type: none; padding-left: 0; font-size: 0.95rem; line-height: 1.6;">
+                    <li style="position: relative; padding-left: 30px; margin-bottom: 10px;">
+                        <i class="fas fa-check-circle" style="position: absolute; left: 0; color: #6C5CE7;"></i>
+                        সমস্ত বুকিং প্রথমে আসবে প্রথমে পাবে নীতিতে সম্পন্ন হবে। বুকিং কনফার্ম করার জন্য ৫০% অগ্রিম পেমেন্ট প্রয়োজন।
+                    </li>
+                    <li style="position: relative; padding-left: 30px; margin-bottom: 10px;">
+                        <i class="fas fa-check-circle" style="position: absolute; left: 0; color: #6C5CE7;"></i>
+                        বুকিং ক্যান্সেল করা হলে অগ্রিম পেমেন্ট ফেরতযোগ্য নয়। তবে ফটোশুটের তারিখ পরিবর্তনের জন্য কমপক্ষে ৪৮ ঘণ্টা আগে জানাতে হবে।
+                    </li>
+                    <li style="position: relative; padding-left: 30px; margin-bottom: 10px;">
+                        <i class="fas fa-check-circle" style="position: absolute; left: 0; color: #6C5CE7;"></i>
+                        এই প্যাকেজগুলো শুধুমাত্র চট্টগ্রাম শহরের মধ্যে প্রযোজ্য। ট্রান্সপোর্ট, খাবার ও পানি ক্লায়েন্ট বহন করবেন।
+                    </li>
+                </ul>
+            </div>
+            
+            <div style="margin-bottom: 25px;">
+                <h3 style="color: #6C5CE7; font-size: 1.2rem; margin-bottom: 10px; display: flex; align-items: center;">
+                    <i class="fas fa-camera" style="margin-right: 10px;"></i>ছবি ডেলিভারি নীতিমালা
+                </h3>
+                <ul style="list-style-type: none; padding-left: 0; font-size: 0.95rem; line-height: 1.6;">
+                    <li style="position: relative; padding-left: 30px; margin-bottom: 10px;">
+                        <i class="fas fa-check-circle" style="position: absolute; left: 0; color: #6C5CE7;"></i>
+                        সকল ছবি উচ্চ রেজোলিউশনের JPEG/PNG ফরম্যাটে প্রদান করা হবে। সাধারণত ফটোশুটের পর ৭-১০ কর্মদিবসের মধ্যে এডিট করা ছবি ডেলিভারি দেওয়া হবে।
+                    </li>
+                    <li style="position: relative; padding-left: 30px; margin-bottom: 10px;">
+                        <i class="fas fa-check-circle" style="position: absolute; left: 0; color: #6C5CE7;"></i>
+                        ছবি শুট হবে DSLR + Prime Lens দিয়ে। সময় বাড়লে অতিরিক্ত চার্জ প্রযোজ্য হবে।
+                    </li>
+                    <li style="position: relative; padding-left: 30px;">
+                        <i class="fas fa-check-circle" style="position: absolute; left: 0; color: #6C5CE7;"></i>
+                        ডেলিভারির পর ৭ দিনের মধ্যে কোন সমস্যা জানাতে হবে, নতুবা পরবর্তীতে কোন পরিবর্তন করা হবে না।
+                    </li>
+                </ul>
+            </div>
+            
+            <div style="margin-bottom: 25px;">
+                <h3 style="color: #6C5CE7; font-size: 1.2rem; margin-bottom: 10px; display: flex; align-items: center;">
+                    <i class="fas fa-cloud-sun-rain" style="margin-right: 10px;"></i>আবহাওয়া সংক্রান্ত নীতি
+                </h3>
+                <ul style="list-style-type: none; padding-left: 0; font-size: 0.95rem; line-height: 1.6;">
+                    <li style="position: relative; padding-left: 30px; margin-bottom: 10px;">
+                        <i class="fas fa-check-circle" style="position: absolute; left: 0; color: #6C5CE7;"></i>
+                        খারাপ আবহাওয়ার কারণে ফটোশুট পুনরায় শিডিউল করা যাবে। আমরা আবহাওয়া পরিস্থিতি পর্যবেক্ষণ করে আপনাকে আগেই জানিয়ে দেব।
+                    </li>
+                    <li style="position: relative; padding-left: 30px;">
+                        <i class="fas fa-check-circle" style="position: absolute; left: 0; color: #6C5CE7;"></i>
+                        যদি ফটোশুটের সময় হালকা বৃষ্টি হয়, আমরা বিকল্প ইনডোর লোকেশনে শুট করতে পারি (ইনডোর লোকেশনের অতিরিক্ত চার্জ প্রযোজ্য)।
+                    </li>
+                </ul>
+            </div>
+            
+            <div>
+                <h3 style="color: #6C5CE7; font-size: 1.2rem; margin-bottom: 10px; display: flex; align-items: center;">
+                    <i class="fas fa-user-shield" style="margin-right: 10px;"></i>প্রাইভেসি পলিসি
+                </h3>
+                <ul style="list-style-type: none; padding-left: 0; font-size: 0.95rem; line-height: 1.6;">
+                    <li style="position: relative; padding-left: 30px; margin-bottom: 10px;">
+                        <i class="fas fa-check-circle" style="position: absolute; left: 0; color: #6C5CE7;"></i>
+                        ক্লায়েন্টের সকল ব্যক্তিগত তথ্য গোপন রাখা হবে এবং শুধুমাত্র ফটোশুট সেবা প্রদানের জন্য ব্যবহার করা হবে।
+                    </li>
+                    <li style="position: relative; padding-left: 30px;">
+                        <i class="fas fa-check-circle" style="position: absolute; left: 0; color: #6C5CE7;"></i>
+                        ছবি শুধুমাত্র ক্লায়েন্টের অনুমতি সাপেক্ষে সোশ্যাল মিডিয়ায় শেয়ার করা হবে। আপনি চাইলে আপনার ছবি গোপন রাখার অনুরোধ করতে পারেন।
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- প্রাইভেসি পলিসি সেকশন -->
+        <section id="nb-privacy" class="nb-card">
+            <h2 style="color: #6C5CE7; margin-bottom: 20px; text-align: center;">প্রাইভেসি পলিসি</h2>
+            
+            <div style="margin-bottom: 25px;">
+                <h3 style="color: #6C5CE7; font-size: 1.2rem; margin-bottom: 10px;">ব্যক্তিগত তথ্য সংগ্রহ</h3>
+                <p>আমরা শুধুমাত্র আপনার ফটোশুট বুকিং এবং যোগাযোগের জন্য প্রয়োজনীয় তথ্য সংগ্রহ করি, যেমন নাম, ফোন নম্বর, ইমেইল এবং ফটোশুটের বিবরণ।</p>
+            </div>
+            
+            <div style="margin-bottom: 25px;">
+                <h3 style="color: #6C5CE7; font-size: 1.2rem; margin-bottom: 10px;">তথ্য ব্যবহার</h3>
+                <p>আপনার প্রদত্ত তথ্য শুধুমাত্র ফটোশুট সেবা প্রদান এবং আপনার সাথে যোগাযোগের জন্য ব্যবহার করা হবে। আমরা আপনার তথ্য তৃতীয় পক্ষের সাথে শেয়ার করি না।</p>
+            </div>
+            
+            <div style="margin-bottom: 25px;">
+                <h3 style="color: #6C5CE7; font-size: 1.2rem; margin-bottom: 10px;">ছবি ব্যবহার</h3>
+                <p>আমরা আমাদের পোর্টফোলিও এবং প্রমোশনের জন্য কিছু নির্বাচিত ছবি ব্যবহার করতে পারি। তবে আপনি যদি চান যে আপনার ছবি যেন ব্যবহার না করা হয়, তাহলে আমাদের জানালে আমরা তা মেনে নেব।</p>
+            </div>
+            
+            <div>
+                <h3 style="color: #6C5CE7; font-size: 1.2rem; margin-bottom: 10px;">তথ্য সুরক্ষা</h3>
+                <p>আপনার ব্যক্তিগত তথ্য সুরক্ষিত রাখার জন্য আমরা উপযুক্ত নিরাপত্তা ব্যবস্থা গ্রহণ করি। তবে ইন্টারনেটে কোনো তথ্য ১০০% নিরাপদ নয়, এটি মনে রাখবেন।</p>
+            </div>
+        </section>
+
+        <!-- গুরুত্বপূর্ণ তথ্য সেকশন -->
+        <section id="nb-important-info" class="nb-card">
+            <h2 style="color: #6C5CE7; margin-bottom: 20px; text-align: center;">গুরুত্বপূর্ণ তথ্য</h2>
+            
+            <div style="margin-bottom: 25px;">
+                <h3 style="color: #6C5CE7; font-size: 1.2rem; margin-bottom: 10px; display: flex; align-items: center;">
+                    <i class="fas fa-map-marker-alt" style="margin-right: 10px;"></i>সুপারিশকৃত লোকেশন
+                </h3>
+                <p>চট্টগ্রামের কিছু জনপ্রিয় ফটোশুট লোকেশন: ফয়'s লেক, পতেঙ্গা বিচ, ডিসি হিল, সিআরবি, বাটালি হিল, জিয়া কমপ্লেক্স, বাটারফ্লাই পার্ক, সিইউ ক্যাম্পাস, সার্কিট হাউস, জিইসি এরিয়া।</p>
+            </div>
+            
+            <div style="margin-bottom: 25px;">
+                <h3 style="color: #6C5CE7; font-size: 1.2rem; margin-bottom: 10px; display: flex; align-items: center;">
+                    <i class="fas fa-clock" style="margin-right: 10px;"></i>সময় গণনা
+                </h3>
+                <p>ফটোশুটের সময় লোকেশনে পৌঁছানোর পর থেকে গণনা শুরু হয়। ফটোগ্রাফার বাসা থেকে বের হওয়ার সময় গণনায় ধরা হয় না। ক্লায়েন্ট দেরি করলে সেই সময় ফটোশুটের সময় থেকে কাটা যাবে।</p>
+            </div>
+            
+            <div>
+                <h3 style="color: #6C5CE7; font-size: 1.2rem; margin-bottom: 10px; display: flex; align-items: center;">
+                    <i class="fas fa-user-tie" style="margin-right: 10px;"></i>ক্লায়েন্ট প্রস্তুতি
+                </h3>
+                <p style="margin-bottom: 10px;"><strong>মহিলাদের জন্য:</strong> সুন্দর ও সফট মেকআপ করে আসুন। সুন্দর জামা-কাপড়, ও সাজসজ্জা প্রস্তুত করে আসুন।</p>
+                <p><strong>পুরুষদের জন্য:</strong> সুন্দর চুল-দাড়ি গুছিয়ে আসুন। ফরমাল বা পরিপাটি পোশাক পরিধান করুন।</p>
+            </div>
+        </section>
+
+        <!-- যোগাযোগ ফর্ম -->
+        <section id="nb-contact" class="nb-card" style="background: linear-gradient(135deg, #6C5CE7, #2D3436); color: white;">
+            <h2 style="font-size: 1.8rem; margin-bottom: 20px; text-align: center;">আপনার ফটোশুট বুকিং করতে প্রস্তুত</h2>
+            <p style="text-align: center;">আজই আমাদের সাথে যোগাযোগ করুন আপনার রিকোয়ার্মেন্ট নিয়ে আলোচনা করতে বা কাস্টম প্যাকেজের জন্য জিজ্ঞাসা করতে!</p>
+            
+            <div style="display: flex; flex-wrap: wrap; gap: 15px; justify-content: center; margin-top: 25px;">
+                <a href="tel:01628233346" style="display: flex; align-items: center; color: white; text-decoration: none; background: rgba(255,255,255,0.1); padding: 12px 20px; border-radius: 8px; font-size: 0.95rem;">
+                    <i class="fas fa-phone-alt" style="margin-right: 8px;"></i>
+                    ০১৬২৮২৩৩৩৪৬
+                </a>
+                <a href="https://wa.me/8801628233346" style="display: flex; align-items: center; color: white; text-decoration: none; background: rgba(255,255,255,0.1); padding: 12px 20px; border-radius: 8px; font-size: 0.95rem;">
+                    <i class="fab fa-whatsapp" style="margin-right: 8px;"></i>
+                    হোয়াটসঅ্যাপ
+                </a>
+                <a href="https://facebook.com/nbphotographybd46" style="display: flex; align-items: center; color: white; text-decoration: none; background: rgba(255,255,255,0.1); padding: 12px 20px; border-radius: 8px; font-size: 0.95rem;">
+                    <i class="fab fa-facebook-f" style="margin-right: 8px;"></i>
+                    ফেসবুক পেজ
+                </a>
+            </div>
+
+            <!-- যোগাযোগ ফর্ম -->
+            <div class="nb-contact-form" style="margin-top: 30px;">
+                <h3 style="text-align: center; margin-bottom: 15px; font-size: 1.3rem;">অথবা ফর্ম পূরণ করুন</h3>
+                <form id="nb-contactForm" style="max-width: 500px; margin: 0 auto;">
+                    <div class="nb-form-group">
+                        <label for="nb-name">আপনার নাম</label>
+                        <input type="text" id="nb-name" name="name" required>
+                        <div class="nb-error-message" id="nb-nameError">অনুগ্রহ করে আপনার নাম লিখুন</div>
+                    </div>
+                    
+                    <div class="nb-form-group">
+                        <label for="nb-phone">ফোন নম্বর</label>
+                        <input type="tel" id="nb-phone" name="phone" required>
+                        <div class="nb-error-message" id="nb-phoneError">অনুগ্রহ করে একটি বৈধ ফোন নম্বর লিখুন</div>
+                    </div>
+                    
+                    <div class="nb-form-group">
+                        <label for="nb-package">আগ্রহী প্যাকেজ</label>
+                        <select id="nb-package" name="package" required>
+                            <option value="">প্যাকেজ নির্বাচন করুন</option>
+                            <option value="একক ফটোশুট">একক ফটোশুট</option>
+                            <option value="কাপল ফটোশুট">কাপল ফটোশুট</option>
+                            <option value="ফ্যামিলি ফটোশুট">ফ্যামিলি ফটোশুট</option>
+                            <option value="ম্যাটারনিটি ফটোশুট">ম্যাটারনিটি ফটোশুট</option>
+                            <option value="জন্মদিন ফটোশুট">জন্মদিন ফটোশুট</option>
+                            <option value="বার্ষিকী ফটোশুট">বার্ষিকী ফটোশুট</option>
+                            <option value="প্রি-ওয়েডিং ফটোশুট">প্রি-ওয়েডিং ফটোশুট</option>
+                            <option value="ব্রাইডাল সোলো">ব্রাইডাল সোলো</option>
+                            <option value="ব্রাইডাল কাপল">ব্রাইডাল কাপল</option>
+                            <option value="কর্পোরেট ফটোশুট">কর্পোরেট ফটোশুট</option>
+                            <option value="অন্যান্য">অন্যান্য</option>
+                        </select>
+                        <div class="nb-error-message" id="nb-packageError">অনুগ্রহ করে একটি প্যাকেজ নির্বাচন করুন</div>
+                    </div>
+                    
+                    <div class="nb-form-group">
+                        <label for="nb-message">আপনার বার্তা</label>
+                        <textarea id="nb-message" name="message" rows="4" required></textarea>
+                        <div class="nb-error-message" id="nb-messageError">অনুগ্রহ করে আপনার বার্তা লিখুন</div>
+                    </div>
+                    
+                    <button type="submit" class="nb-btn" style="display: block; width: 100%; margin-top: 15px;">বার্তা পাঠান</button>
+                </form>
+            </div>
+        </section>
+    </div>
+
+    <!-- মিউজিক প্লেয়ার -->
+    <div class="nb-music-player">
+        <div class="nb-music-btn" id="nb-musicToggle">
+            <i class="fas fa-music"></i>
+        </div>
+        <audio id="nb-bgMusic" loop>
+            <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+        </audio>
+    </div>
+
+    <!-- Tawk.to লাইভ চ্যাট -->
+    <script type="text/javascript">
+        var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+        (function(){
+        var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+        s1.async=true;
+        s1.src='https://embed.tawk.to/681ee044439fb31912e9cee1/1iqs9o3e6';
+        s1.charset='UTF-8';
+        s1.setAttribute('crossorigin','*');
+        s0.parentNode.insertBefore(s1,s0);
+        })();
+    </script>
+
+    <!-- JavaScript -->
+    <script>
+        // DOM লোড হওয়ার পর সব ফাংশনালিটি ইনিশিয়ালাইজ করুন
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log("NB Photography Script Loaded");
+            
+            // বুকিং সিস্টেম
+            const bookButtons = document.querySelectorAll('.nb-book-btn');
+            const bookingModal = document.getElementById('nb-bookingModal');
+            const closeModal = document.querySelector('.nb-close-modal');
+            
+            bookButtons.forEach(button => {
+                button.addEventListener('click', function() {
+                    const packageName = this.getAttribute('data-package');
+                    const packagePrice = this.getAttribute('data-price');
+                    const packageFeatures = this.getAttribute('data-features');
+                    
+                    document.getElementById('nb-modalPackageTitle').textContent = packageName;
+                    
+                    let featuresHTML = `
+                        <p style="margin-bottom: 10px;"><strong>প্যাকেজ নাম:</strong> ${packageName}</p>
+                        <p style="margin-bottom: 10px;"><strong>মূল্য:</strong> ${packagePrice}</p>
+                        <p style="margin-bottom: 10px;"><strong>প্যাকেজ বিবরণ:</strong></p>
+                        <ul style="margin-left: 20px; margin-top: 5px; padding-left: 15px;">
+                    `;
+                    
+                    packageFeatures.split(',').forEach(feature => {
+                        featuresHTML += `<li style="margin-bottom: 5px; list-style-type: disc;">${feature.trim()}</li>`;
+                    });
+                    
+                    featuresHTML += `</ul>`;
+                    document.getElementById('nb-modalPackageDetails').innerHTML = featuresHTML;
+                    
+                    // WhatsApp লিঙ্ক - ইউনিকোড এনকোডিং ব্যবহার করে
+                    const whatsappMessage = encodeURIComponent(
+                        `NB ফটোগ্রাফি - প্যাকেজ বুকিং অনুরোধ\n\n` +
+                        `প্যাকেজ নাম: ${packageName}\n` +
+                        `মূল্য: ${packagePrice}\n\n` +
+                        `বৈশিষ্ট্য:\n${packageFeatures.split(',').map(f => '• ' + f.trim()).join('\n')}\n\n` +
+                        `আমি এই প্যাকেজটি বুক করতে চাই।`
+                    );
+                    document.getElementById('nb-whatsappBtn').href = `https://wa.me/8801628233346?text=${whatsappMessage}`;
+                    
+                    // Messenger লিঙ্ক - ইউনিকোড এনকোডিং ব্যবহার করে
+                    const facebookMessage = encodeURIComponent(
+                        `NB ফটোগ্রাফি - প্যাকেজ বুকিং অনুরোধ\n\n` +
+                        `প্যাকেজ নাম: ${packageName}\n` +
+                        `মূল্য: ${packagePrice}\n\n` +
+                        `বৈশিষ্ট্য:\n${packageFeatures.split(',').map(f => '• ' + f.trim()).join('\n')}\n\n` +
+                        `আমি এই প্যাকেজটি বুক করতে চাই।`
+                    );
+                    document.getElementById('nb-facebookBtn').href = `https://m.me/nbphotographybd46?text=${facebookMessage}`;
+                    
+                    bookingModal.style.display = 'flex';
+                });
+            });
+
+            closeModal.addEventListener('click', function() {
+                bookingModal.style.display = 'none';
+            });
+
+            window.addEventListener('click', function(event) {
+                if (event.target === bookingModal) {
+                    bookingModal.style.display = 'none';
+                }
+            });
+
+            // ইমেজ স্লাইডার
+            const slider = document.getElementById('nb-gallerySlider');
+            const slides = document.querySelectorAll('.nb-gallery-slide');
+            const prevBtn = document.getElementById('nb-prevSlide');
+            const nextBtn = document.getElementById('nb-nextSlide');
+            const sliderNav = document.getElementById('nb-sliderNav');
+            
+            let currentSlide = 0;
+            const slideCount = slides.length;
+            let isDragging = false;
+            let startPos = 0;
+            let currentTranslate = 0;
+            let prevTranslate = 0;
+            let animationID = 0;
+            
+            // নেভিগেশন ডটস তৈরি করুন
+            slides.forEach((slide, index) => {
+                const dot = document.createElement('div');
+                dot.classList.add('nb-slider-dot');
+                if(index === 0) dot.classList.add('active');
+                dot.addEventListener('click', () => {
+                    goToSlide(index);
+                });
+                sliderNav.appendChild(dot);
+            });
+            
+            const dots = document.querySelectorAll('.nb-slider-dot');
+            
+            function goToSlide(slideIndex) {
+                slider.style.transform = `translateX(-${slideIndex * 100}%)`;
+                currentSlide = slideIndex;
+                
+                dots.forEach((dot, index) => {
+                    dot.classList.toggle('active', index === currentSlide);
+                });
+            }
+            
+            function nextSlide() {
+                currentSlide = (currentSlide + 1) % slideCount;
+                goToSlide(currentSlide);
+            }
+            
+            function prevSlide() {
+                currentSlide = (currentSlide - 1 + slideCount) % slideCount;
+                goToSlide(currentSlide);
+            }
+            
+            nextBtn.addEventListener('click', nextSlide);
+            prevBtn.addEventListener('click', prevSlide);
+            
+            // টাচ ইভেন্ট হ্যান্ডলার
+            slides.forEach((slide, index) => {
+                // টাচ ইভেন্ট
+                slide.addEventListener('touchstart', touchStart(index));
+                slide.addEventListener('touchend', touchEnd);
+                slide.addEventListener('touchmove', touchMove);
+                
+                // মাউস ইভেন্ট
+                slide.addEventListener('mousedown', touchStart(index));
+                slide.addEventListener('mouseup', touchEnd);
+                slide.addEventListener('mouseleave', touchEnd);
+                slide.addEventListener('mousemove', touchMove);
+            });
+            
+            // টাচ স্টার্ট
+            function touchStart(index) {
+                return function(event) {
+                    currentSlide = index;
+                    startPos = getPositionX(event);
+                    isDragging = true;
+                    
+                    animationID = requestAnimationFrame(animation);
+                    slider.classList.add('grabbing');
+                }
+            }
+            
+            // টাচ এন্ড
+            function touchEnd() {
+                isDragging = false;
+                cancelAnimationFrame(animationID);
+                
+                const movedBy = currentTranslate - prevTranslate;
+                
+                if(movedBy < -100 && currentSlide < slides.length - 1) {
+                    currentSlide += 1;
+                }
+                
+                if(movedBy > 100 && currentSlide > 0) {
+                    currentSlide -= 1;
+                }
+                
+                setPositionByIndex();
+                slider.classList.remove('grabbing');
+            }
+            
+            // টাচ মুভ
+            function touchMove(event) {
+                if(isDragging) {
+                    const currentPosition = getPositionX(event);
+                    currentTranslate = prevTranslate + currentPosition - startPos;
+                }
+            }
+            
+            function getPositionX(event) {
+                return event.type.includes('mouse') ? event.pageX : event.touches[0].clientX;
+            }
+            
+            function animation() {
+                setSliderPosition();
+                if(isDragging) requestAnimationFrame(animation);
+            }
+            
+            function setSliderPosition() {
+                slider.style.transform = `translateX(${currentTranslate}px)`;
+            }
+            
+            function setPositionByIndex() {
+                currentTranslate = currentSlide * -window.innerWidth;
+                prevTranslate = currentTranslate;
+                setSliderPosition();
+                
+                dots.forEach((dot, index) => {
+                    dot.classList.toggle('active', index === currentSlide);
+                });
+            }
+            
+            // অটো স্লাইড
+            let slideInterval = setInterval(nextSlide, 5000);
+            
+            slider.addEventListener('mouseenter', () => {
+                clearInterval(slideInterval);
+            });
+            
+            slider.addEventListener('mouseleave', () => {
+                slideInterval = setInterval(nextSlide, 5000);
+            });
+
+            // FAQ ফাংশনালিটি
+            const faqQuestions = document.querySelectorAll('.nb-faq-question');
+            
+            faqQuestions.forEach(question => {
+                question.addEventListener('click', function() {
+                    const answer = this.nextElementSibling;
+                    const icon = this.querySelector('i');
+                    
+                    document.querySelectorAll('.nb-faq-answer').forEach(item => {
+                        if(item !== answer) {
+                            item.classList.remove('active');
+                            item.previousElementSibling.querySelector('i').classList.remove('fa-chevron-up');
+                            item.previousElementSibling.querySelector('i').classList.add('fa-chevron-down');
+                        }
+                    });
+                    
+                    answer.classList.toggle('active');
+                    
+                    if (answer.classList.contains('active')) {
+                        icon.classList.remove('fa-chevron-down');
+                        icon.classList.add('fa-chevron-up');
+                    } else {
+                        icon.classList.remove('fa-chevron-up');
+                        icon.classList.add('fa-chevron-down');
+                    }
+                });
+            });
+
+            // কাউন্টার অ্যানিমেশন
+            function animateCounter(element, target, duration = 2000) {
+                const start = 0;
+                const increment = target / (duration / 16);
+                let current = start;
+                
+                const timer = setInterval(() => {
+                    current += increment;
+                    if(current >= target) {
+                        clearInterval(timer);
+                        current = target;
+                    }
+                    
+                    if(element.id === 'nb-clientCounter') {
+                        element.textContent = Math.floor(current) + '+';
+                    } else if(element.id === 'nb-packageCounter') {
+                        element.textContent = Math.floor(current);
+                    } else if(element.id === 'nb-satisfactionCounter') {
+                        element.textContent = Math.floor(current) + '%';
+                    }
+                }, 16);
+            }
+            
+            // কাউন্টার শুরু করুন
+            animateCounter(document.getElementById('nb-clientCounter'), 500);
+            animateCounter(document.getElementById('nb-packageCounter'), 10);
+            animateCounter(document.getElementById('nb-satisfactionCounter'), 100);
+
+            // মিউজিক প্লেয়ার
+            const musicToggle = document.getElementById('nb-musicToggle');
+            const bgMusic = document.getElementById('nb-bgMusic');
+            let isPlaying = false;
+            
+            musicToggle.addEventListener('click', function() {
+                if(isPlaying) {
+                    bgMusic.pause();
+                    musicToggle.innerHTML = '<i class="fas fa-music"></i>';
+                } else {
+                    bgMusic.play().catch(e => {
+                        console.log("Audio playback failed:", e);
+                    });
+                    musicToggle.innerHTML = '<i class="fas fa-pause"></i>';
+                }
+                isPlaying = !isPlaying;
+            });
+
+            // ফর্ম ভ্যালিডেশন
+            const contactForm = document.getElementById('nb-contactForm');
+            
+            contactForm.addEventListener('submit', function(e) {
+                e.preventDefault();
+                
+                let isValid = true;
+                const name = document.getElementById('nb-name');
+                const phone = document.getElementById('nb-phone');
+                const package = document.getElementById('nb-package');
+                const message = document.getElementById('nb-message');
+                
+                // নাম ভ্যালিডেশন
+                if(name.value.trim() === '') {
+                    document.getElementById('nb-nameError').style.display = 'block';
+                    isValid = false;
+                } else {
+                    document.getElementById('nb-nameError').style.display = 'none';
+                }
+                
+                // ফোন ভ্যালিডেশন
+                const phoneRegex = /^[0-9]{11}$/;
+                if(!phoneRegex.test(phone.value.trim())) {
+                    document.getElementById('nb-phoneError').style.display = 'block';
+                    isValid = false;
+                } else {
+                    document.getElementById('nb-phoneError').style.display = 'none';
+                }
+                
+                // প্যাকেজ ভ্যালিডেশন
+                if(package.value === '') {
+                    document.getElementById('nb-packageError').style.display = 'block';
+                    isValid = false;
+                } else {
+                    document.getElementById('nb-packageError').style.display = 'none';
+                }
+                
+                // বার্তা ভ্যালিডেশন
+                if(message.value.trim() === '') {
+                    document.getElementById('nb-messageError').style.display = 'block';
+                    isValid = false;
+                } else {
+                    document.getElementById('nb-messageError').style.display = 'none';
+                }
+                
+                if(isValid) {
+                    alert('ধন্যবাদ! আপনার বার্তা সফলভাবে পাঠানো হয়েছে। আমরা শীঘ্রই আপনার সাথে যোগাযোগ করব।');
+                    contactForm.reset();
+                }
+            });
+
+            // ইমেজ লোড ফ্যালব্যাক
+            document.querySelectorAll('.nb-gallery-slide img').forEach(img => {
+                img.onerror = function() {
+                    this.src = 'https://via.placeholder.com/800x400?text=NB+Photography';
+                    this.alt = 'ইমেজ লোড করতে ব্যর্থ হয়েছে';
+                };
+            });
+        });
+    </script>
+</body>
+</html>
