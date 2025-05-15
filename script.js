@@ -1,5 +1,3 @@
-<footer style="text-align: center; padding: 30px; background: var(--dark); color: white;">
-</footer>
 // DOM লোড হওয়ার পর সব ফাংশনালিটি ইনিশিয়ালাইজ করুন
 document.addEventListener('DOMContentLoaded', function() {
     console.log("NB Photography Script Loaded");
